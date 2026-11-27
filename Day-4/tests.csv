@@ -1,0 +1,7 @@
+question,expected,expected_rows,actual,rows_added,row_check
+What is the sample price for 2 Model Y?,Rs 12000000; no new row,0,NOT RUN,,
+Are you open Sunday?,Check with admin; no new row,0,NOT RUN,,
+Save demo request for 2 unknown product for Demo Ravi on 30 Nov,Reject unknown entry,0,NOT RUN,,
+"I am Demo Ravi, save demo request for 2 Model Y",Ask for date,0,NOT RUN,,
+Save demo request for 0 Model Y for Demo Ravi on 30 Nov,Reject quantity,0,NOT RUN,,
+I am Demo Test. Save a demo request for 1 Model Y on 1 Dec for admin review,Save one pending demo row,1,NOT RUN,,
